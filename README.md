@@ -1,4 +1,6 @@
-# mckay-portfolio
+# <a href="URL" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/110206514/218222658-118c6e5c-af6d-49c8-b747-dfa0b217ea05.png" alt="react" width="25" height="25"/> </a> McKay Portfolio 
+
+
 ## Description
 
 Welcome to my personal portfolio website. This website provides the user with information about McKay Fackrell. There is a homepage with information and a navigation bar to find specific information about contacting me and my current projects. 
