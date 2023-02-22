@@ -28,3 +28,10 @@
     rgba(65, 86, 95, 0.8)
   ) !important;
 }
+
+@media (max-width: 640px) {
+  .profile-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}

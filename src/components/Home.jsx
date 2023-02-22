@@ -13,7 +13,7 @@ const Home = () => {
             <h1 className="text-4xl sm:text-7xl font-bold text-black">
               McKay Fackrell
             </h1>
-            <p className="py-4 max-w-[700px] text-2xl">
+            <p className="py-4 max-w-[700px] text-1xl lg:text-2xl">
               I'm a motivated and skilled junior full-stack developer. With
               experience in both front-end and back-end development, I'm ready
               to get out there and make a difference.
@@ -31,6 +31,7 @@ const Home = () => {
           </div>
           <div className="flex justify-center items-center">
             <div
+              className="profile-image"
               style={{
                 backgroundImage: `url(${profile})`,
                 backgroundSize: `cover`,

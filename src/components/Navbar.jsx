@@ -26,27 +26,27 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li className="hover:underline">
+        <li className="hover:underline md:text-xl">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline md:text-xl">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline md:text-xl">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline md:text-xl">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline md:text-xl">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -67,17 +67,17 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#546f7a] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
           <Link
             onClick={handleClick}
             to="skills"
@@ -88,7 +88,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
           <Link
             onClick={handleClick}
             to="projects"
@@ -99,8 +99,14 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            offset={-80}
+          >
             Contact
           </Link>
         </li>
@@ -158,7 +164,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-[#546f7a] border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+      <footer class="fixed bottom-0 left-0 z-20 w-full p-2 bg-[#546f7a] border-gray-200 shadow md:flex md:items-center md:justify-between md:p-3 dark:bg-gray-800 dark:border-gray-600">
         <span class="text-sm text-black sm:text-center dark:black">
           © 2023{" "}
           <a href="https://flowbite.com/" class="hover:underline">
