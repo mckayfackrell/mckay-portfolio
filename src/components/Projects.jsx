@@ -6,13 +6,16 @@ import weather from "../assets/projects/weather.jpg";
 import password from "../assets/projects/password.jpg";
 import quiz from "../assets/projects/quiz.jpg";
 
-const Work = () => {
+const Projects = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-[#EBE9E9] bg-[#41565f]">
+    <div
+      name="projects"
+      className="w-full md:h-screen text-[#EBE9E9] bg-[#41565f]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#EBE9E9] border-black">
-            Work
+            Projects
           </p>
           <p className="py-4 text-2xl sm:text-2xl font-bold text-[#546f7a]">
             Check out some of my work
@@ -51,7 +54,10 @@ const Work = () => {
           </div>
           {/* grid item: cashflow */}
           <div
-            style={{ backgroundImage: `url(${cashflow})`, backgroundSize: `100% 100%`, }}
+            style={{
+              backgroundImage: `url(${cashflow})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
@@ -76,7 +82,10 @@ const Work = () => {
           </div>
           {/* grid item: weather */}
           <div
-            style={{ backgroundImage: `url(${weather})`, backgroundSize: `100% 100%`, }}
+            style={{
+              backgroundImage: `url(${weather})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
@@ -101,7 +110,10 @@ const Work = () => {
           </div>
           {/* grid item: portfolio */}
           <div
-            style={{ backgroundImage: `url(${portfolio})`, backgroundSize: `100% 100%`, }}
+            style={{
+              backgroundImage: `url(${portfolio})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
@@ -126,7 +138,10 @@ const Work = () => {
           </div>
           {/* grid item: password generator */}
           <div
-            style={{ backgroundImage: `url(${password})`, backgroundSize: `100% 100%`, }}
+            style={{
+              backgroundImage: `url(${password})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
@@ -150,7 +165,10 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${quiz})`, backgroundSize: `100% 100%`, }}
+            style={{
+              backgroundImage: `url(${quiz})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
@@ -179,4 +197,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,16 +14,38 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#546f7a] text-black">
       {/* logo */}
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "60px" }} />
+        <Link to="home" smooth={true} duration={500}>
+          <img className="hover:cursor-pointer" src={Logo} alt="Logo" style={{ width: "60px" }} />
+        </Link>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li className="hover:underline">Home</li>
-        <li className="hover:underline">About</li>
-        <li className="hover:underline">Skills</li>
-        <li className="hover:underline">Projects</li>
-        <li className="hover:underline">Contact</li>
+        <li className="hover:underline">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="hover:underline">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="hover:underline">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="hover:underline">
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="hover:underline">
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* hamburger */}

@@ -19,7 +19,7 @@ const Home = () => {
           get out there and make a difference.
         </p>
         <div>
-          <button className="text-black group bg-[#5f6f3a] border-none border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EBE9E9]">
+          <button className="text-black group bg-[#5f6f3a] border-[#5f6f3a] border-2 px-6 py-3 my-2 flex items-center hover:border-black">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
