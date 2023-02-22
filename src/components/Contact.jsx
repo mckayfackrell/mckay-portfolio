@@ -1,14 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setSubmitting(true);
+    setSubmitSuccess(false);
+
+    fetch("https://getform.io/f/0be4ed6d-4ad9-4d16-b3ff-664ee3656bba", {
+      method: "POST",
+      body: new FormData(event.target),
+    })
+      .then((response) => {
+        if (response.ok) {
+          setSubmitSuccess(true);
+          setName("");
+          setEmail("");
+          setMessage("");
+        } else {
+          setSubmitSuccess(false);
+        }
+        setSubmitting(false);
+      })
+      .catch(() => {
+        setSubmitting(false);
+        setSubmitSuccess(false);
+      });
+  };
+
+  const buttonText = submitSuccess ? "Success!" : submitSuccess === false ? "Submit" : "Error";
+
   return (
     <div
       name="contact"
       className="w-full h-screen bg-[#7b904b] flex justify-center items-center p-4"
     >
       <form
-        method="POST"
-        action="https://getform.io/f/0be4ed6d-4ad9-4d16-b3ff-664ee3656bba"
+        onSubmit={handleSubmit}
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
@@ -25,6 +70,8 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          value={name}
+          onChange={handleNameChange}
           required
         />
         <input
@@ -32,6 +79,8 @@ const Contact = () => {
           type="email"
           placeholder="Email"
           name="email"
+          value={email}
+          onChange={handleEmailChange}
           required
         />
         <textarea
@@ -39,10 +88,16 @@ const Contact = () => {
           name="message"
           rows="10"
           placeholder="Message"
+          value={message}
+          onChange={handleMessageChange}
           required
         ></textarea>
-        <button className="text-black group bg-[#5f6f3a] border-[#5f6f3a] border-2 px-6 py-3 hover:border-black my-8 mx-auto flex items-center">
-          Submit
+        <button
+          className="text-black group bg-[#5f6f3a] border-[#5f6f3a] border-2 px-6 py-3 hover:border-black my-8 mx-auto flex items-center"
+          type="submit"
+          disabled={submitting}
+        >
+          {submitting ? "Submitting..." : buttonText}
         </button>
       </form>
     </div>
