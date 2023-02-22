@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mckay-portfolio/static/css/main.071c0426.css",
+    "main.js": "/mckay-portfolio/static/js/main.18109cd5.js",
+    "static/media/profile.jpeg": "/mckay-portfolio/static/media/profile.2cbcfd1e181de29c706f.jpeg",
+    "static/media/color.jpg": "/mckay-portfolio/static/media/color.e454c037599d88737d70.jpg",
+    "static/media/weather.jpg": "/mckay-portfolio/static/media/weather.db7a30bb3fb455df48af.jpg",
+    "static/media/cashflow.jpg": "/mckay-portfolio/static/media/cashflow.275b00c9f4d11fe09e6a.jpg",
+    "static/media/portfolio.jpg": "/mckay-portfolio/static/media/portfolio.536fe67804d91a527252.jpg",
+    "static/media/password.jpg": "/mckay-portfolio/static/media/password.552e4ec661c75055bb3b.jpg",
+    "static/media/quiz.jpg": "/mckay-portfolio/static/media/quiz.528cdf78d4c92b37adc0.jpg",
+    "static/media/logo.png": "/mckay-portfolio/static/media/logo.a603b4f15dc5ea969d68.png",
+    "static/media/react.png": "/mckay-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/mckay-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/mckay-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/mckay-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/mckay-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/mckay-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/mckay-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/mckay-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/mckay-portfolio/index.html",
+    "main.071c0426.css.map": "/mckay-portfolio/static/css/main.071c0426.css.map",
+    "main.18109cd5.js.map": "/mckay-portfolio/static/js/main.18109cd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071c0426.css",
+    "static/js/main.18109cd5.js"
+  ]
+}
