@@ -3,6 +3,8 @@ import cashflow from "../assets/projects/cashflow.jpg";
 import color from "../assets/projects/color.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
 import weather from "../assets/projects/weather.jpg";
+import password from "../assets/projects/password.jpg";
+import quiz from "../assets/projects/quiz.jpg";
 
 const Work = () => {
   return (
@@ -21,14 +23,17 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item: color */}
           <div
-            style={{ backgroundImage: `url(${color})` }}
+            style={{
+              backgroundImage: `url(${color})`,
+              backgroundSize: `100% 100%`,
+            }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Color Palette Picker
               </span>
               <div className="pt-8 text-center">
                 <a href="https://jacee94.github.io/image-color-picker/">
@@ -46,14 +51,14 @@ const Work = () => {
           </div>
           {/* grid item: cashflow */}
           <div
-            style={{ backgroundImage: `url(${cashflow})` }}
+            style={{ backgroundImage: `url(${cashflow})`, backgroundSize: `100% 100%`, }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                CashFlow
               </span>
               <div className="pt-8 text-center">
                 <a href="https://cashflow.herokuapp.com/">
@@ -71,14 +76,14 @@ const Work = () => {
           </div>
           {/* grid item: weather */}
           <div
-            style={{ backgroundImage: `url(${weather})` }}
+            style={{ backgroundImage: `url(${weather})`, backgroundSize: `100% 100%`, }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Weather Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://mckayfackrell.github.io/module-06-Weather-Dashboard/">
@@ -96,14 +101,14 @@ const Work = () => {
           </div>
           {/* grid item: portfolio */}
           <div
-            style={{ backgroundImage: `url(${portfolio})` }}
+            style={{ backgroundImage: `url(${portfolio})`, backgroundSize: `100% 100%`, }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React Portfolio
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -119,23 +124,24 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* grid item: password generator */}
           <div
-            style={{ backgroundImage: `url(${portfolio})` }}
+            style={{ backgroundImage: `url(${password})`, backgroundSize: `100% 100%`, }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Password Generator
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://mckayfackrell.github.io/module-03-Password-Generator/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mckayfackrell/mckay-portfolio">
+                <a href="https://github.com/mckayfackrell/module-03-Password-Generator/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -144,22 +150,22 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${portfolio})` }}
+            style={{ backgroundImage: `url(${quiz})`, backgroundSize: `100% 100%`, }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
             flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Code Quiz
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://mckayfackrell.github.io/module-04-Code-Quiz/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mckayfackrell/mckay-portfolio">
+                <a href="https://github.com/mckayfackrell/module-04-Code-Quiz">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
