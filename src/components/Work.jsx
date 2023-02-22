@@ -4,23 +4,26 @@ import color from "../assets/projects/color.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
 import weather from "../assets/projects/weather.jpg";
 
-const work = () => {
+const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#7b904b]">
+    <div name="work" className="w-full md:h-screen text-[#EBE9E9] bg-[#7b904b]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-black-600">
+          <p className="text-4xl font-bold inline border-b-4 text-[#EBE9E9] border-black">
             Work
           </p>
-          <p className="py-6">Check out some of my work</p>
+          <p className="py-4 text-2xl sm:text-2xl font-bold text-[#495b67]">
+            Check out some of my work
+          </p>
         </div>
 
         {/* container */}
-        <div className="gird sm:grid-cols-2 md:gird-col-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/* grid item: color */}
           <div
             style={{ backgroundImage: `url(${color})` }}
-            className="shadow-lg shadow-[#546f7a] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#5f6f3a] group container rounded-md 
+            flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -41,12 +44,11 @@ const work = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="gird sm:grid-cols-2 md:gird-col-3 gap-4">
           {/* grid item: cashflow */}
           <div
             style={{ backgroundImage: `url(${cashflow})` }}
-            className="shadow-lg shadow-[#546f7a] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#5f6f3a] group container rounded-md 
+            flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -67,12 +69,11 @@ const work = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="gird sm:grid-cols-2 md:gird-col-3 gap-4">
           {/* grid item: weather */}
           <div
             style={{ backgroundImage: `url(${weather})` }}
-            className="shadow-lg shadow-[#546f7a] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#5f6f3a] group container rounded-md 
+            flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -93,12 +94,11 @@ const work = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="gird sm:grid-cols-2 md:gird-col-3 gap-4">
           {/* grid item: portfolio */}
           <div
             style={{ backgroundImage: `url(${portfolio})` }}
-            className="shadow-lg shadow-[#546f7a] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#5f6f3a] group container rounded-md 
+            flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -125,4 +125,4 @@ const work = () => {
   );
 };
 
-export default work;
+export default Work;
