@@ -14,16 +14,16 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold text-[#546f7a]">
-            <p>Hi, I'm McKay, nice to meet you. Please take a look around.</p>
+            <p>I'm McKay, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
-              I have a strong foundation in both front-end and back-end
-              development, including HTML, CSS, JavaScript, Bootstrap, React,
-              Node.js, MERN, MySQL, and GraphQL. I am highly motivated,
-              detail-oriented, and continuously learning the latest web
-              development technologies and best practices. I am a great team
-              player with strong communication and collaboration skills.
+            <p className="text-xl">
+              I'm skilled in both front-end and back-end development,
+              specifically in HTML, CSS, JavaScript, Bootstrap, React, Node.js,
+              MERN, MySQL, and GraphQL. I'm highly motivated, detail-oriented,
+              and always learning new web development technologies and best
+              practices. I'm a strong team player with excellent communication
+              and collaboration skills.
             </p>
           </div>
         </div>
