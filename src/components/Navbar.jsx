@@ -18,11 +18,11 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li className="hover:underline">Home</li>
+        <li className="hover:underline">About</li>
+        <li className="hover:underline">Skills</li>
+        <li className="hover:underline">Projects</li>
+        <li className="hover:underline">Contact</li>
       </ul>
 
       {/* hamburger */}
@@ -38,11 +38,11 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#546f7a] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl hover:underline">Home</li>
+        <li className="py-6 text-4xl hover:underline">About</li>
+        <li className="py-6 text-4xl hover:underline">Skills</li>
+        <li className="py-6 text-4xl hover:underline">Projects</li>
+        <li className="py-6 text-4xl hover:underline">Contact</li>
       </ul>
 
       {/* social icons */}
@@ -82,6 +82,15 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+
+      <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-[#546f7a] border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+        <span class="text-sm text-black sm:text-center dark:black">
+          © 2023{" "}
+          <a href="https://flowbite.com/" class="hover:underline">
+            McKay Fackrell
+          </a>
+        </span>
+      </footer>
     </div>
   );
 };

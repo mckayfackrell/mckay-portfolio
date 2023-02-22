@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-black">
           McKay Fackrell
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#495b67]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#41565f]">
           I'm a Full Stack Developer.
         </h2>
         <p className="py-4 max-w-[700px]">
