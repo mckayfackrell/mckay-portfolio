@@ -68,27 +68,54 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl hover:underline">
-          <Link to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            offset={-80}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link to="projects" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={500}
+            offset={-80}
+          >
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
