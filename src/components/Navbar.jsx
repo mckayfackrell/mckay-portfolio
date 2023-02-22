@@ -15,7 +15,12 @@ const Navbar = () => {
       {/* logo */}
       <div>
         <Link to="home" smooth={true} duration={500}>
-          <img className="hover:cursor-pointer" src={Logo} alt="Logo" style={{ width: "60px" }} />
+          <img
+            className="hover:cursor-pointer"
+            src={Logo}
+            alt="Logo"
+            style={{ width: "60px" }}
+          />
         </Link>
       </div>
 
@@ -55,17 +60,38 @@ const Navbar = () => {
 
       {/* mobile menu */}
       <ul
+        onClick={handleClick}
         className={
           !nav
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-[#546f7a] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:underline">Home</li>
-        <li className="py-6 text-4xl hover:underline">About</li>
-        <li className="py-6 text-4xl hover:underline">Skills</li>
-        <li className="py-6 text-4xl hover:underline">Projects</li>
-        <li className="py-6 text-4xl hover:underline">Contact</li>
+        <li className="py-6 text-4xl hover:underline">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:underline">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:underline">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:underline">
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:underline">
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* social icons */}
