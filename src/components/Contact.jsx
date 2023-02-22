@@ -45,11 +45,16 @@ const Contact = () => {
       });
   };
 
-  const buttonText = submitSuccess ? "Success!" : submitSuccess === false ? "Submit" : "Error";
+  const buttonText = submitSuccess
+    ? "Success!"
+    : submitSuccess === false
+    ? "Submit"
+    : "Error";
 
   return (
     <div
       name="contact"
+      id="contact"
       className="w-full h-screen bg-[#7b904b] flex justify-center items-center p-4"
     >
       <form

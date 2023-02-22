@@ -68,22 +68,12 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl hover:underline">
-          <Link
-            onClick={handleClick}
-            to="home"
-            smooth={true}
-            duration={500}
-          >
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link
-            onClick={handleClick}
-            to="about"
-            smooth={true}
-            duration={500}
-          >
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
@@ -110,12 +100,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl hover:underline">
-          <Link
-            onClick={handleClick}
-            to="contact"
-            smooth={true}
-            duration={500}
-          >
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -141,17 +126,31 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f6f3a]">
-            <a
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
               className="flex justify-between items-center w-full text-black"
-              href="/"
             >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f6f3a]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="/"
+              href="/resume.pdf"
+              download="McKay Fackrell Resume"
+              onClick={(e) => {
+                e.preventDefault();
+                if (window.confirm("Do you want to download the resume?")) {
+                  const link = document.createElement("a");
+                  link.href = e.target.href;
+                  link.download = e.target.download;
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }
+              }}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
