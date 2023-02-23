@@ -194,10 +194,11 @@ const Navbar = () => {
         </ul>
       </div>
 
+      {/* footer */}
       <footer class="fixed bottom-0 left-0 z-20 w-full p-2 bg-[#546f7a] border-gray-200 shadow md:flex md:items-center md:justify-between md:p-3 dark:bg-gray-800 dark:border-gray-600">
         <span class="text-sm text-black sm:text-center dark:black">
           © 2023{" "}
-          <a href="https://flowbite.com/" class="hover:underline">
+          <a href="https://github.com/mckayfackrell" class="hover:underline">
             McKay Fackrell
           </a>
         </span>
