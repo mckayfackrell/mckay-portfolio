@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+import Resume from "../../src/assets/resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -67,17 +68,17 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#546f7a] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <Link
             onClick={handleClick}
             to="skills"
@@ -88,7 +89,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <Link
             onClick={handleClick}
             to="projects"
@@ -99,7 +100,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <Link
             onClick={handleClick}
             to="contact"
@@ -110,20 +111,20 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <a href="https://www.linkedin.com/in/mckay-fackrell-187066159/">
             <FaLinkedin size={30} />
           </a>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <a href="https://github.com/mckayfackrell">
             <FaGithub size={30} />
           </a>
         </li>
-        <li className="py-6 text-2xl md:text-4xl hover:underline">
+        <li className="py-3 text-2xl md:text-4xl hover:underline">
           <a
             className="flex justify-between items-center w-full text-black"
-            href="resume.pdf"
+            href={Resume}
             download="McKay Fackrell Resume"
             onClick={(e) => {
               e.preventDefault();
@@ -174,7 +175,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f6f3a]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="resume.pdf"
+              href={Resume}
               download="McKay Fackrell Resume"
               onClick={(e) => {
                 e.preventDefault();

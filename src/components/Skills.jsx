@@ -21,57 +21,57 @@ const Skills = () => {
           <p className="py-4 text-xl md:text-4xl font-bold text-[#41565f]">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-3 md:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto py-4" src={HTML} alt="HTML icon" />
-            <p className="my-4 font-bold">HTML</p>
+            <img className="w-10 md:w-20 mx-auto py-4" src={HTML} alt="HTML icon" />
+            <p className="my-4 font-bold text-sm md:text-lg">HTML</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto py-4" src={CSS} alt="CSS icon" />
-            <p className="my-4 font-bold">CSS</p>
+            <img className="w-10 md:w-20 mx-auto py-4" src={CSS} alt="CSS icon" />
+            <p className="my-4 font-bold text-sm md:text-lg">CSS</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto py-4"
+              className="w-10 md:w-20 mx-auto py-4"
               src={JavaScript}
               alt="JavaScript icon"
             />
-            <p className="my-4 font-bold">JavaScript</p>
+            <p className="my-4 font-bold text-sm md:text-lg">JavaScript</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto py-4"
+              className="w-10 md:w-20 mx-auto py-4"
               src={Reacting}
               alt="React icon"
             />
-            <p className="my-4 font-bold">React</p>
+            <p className="my-4 font-bold text-sm md:text-lg">React</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto py-4" src={Node} alt="Node icon" />
-            <p className="my-4 font-bold">Node</p>
+            <img className="w-10 md:w-20 mx-auto py-4" src={Node} alt="Node icon" />
+            <p className="my-4 font-bold text-sm md:text-lg">Node</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto py-4" src={GitHub} alt="GitHub icon" />
-            <p className="my-4 font-bold">GitHub</p>
+            <img className="w-10 md:w-20 mx-auto py-4" src={GitHub} alt="GitHub icon" />
+            <p className="my-4 font-bold text-sm md:text-lg">GitHub</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto py-4"
+              className="w-10 md:w-20 mx-auto py-4"
               src={Tailwind}
               alt="Tailwind icon"
             />
-            <p className="my-4 font-bold">Tailwind</p>
+            <p className="my-4 font-bold text-sm md:text-lg">Tailwind</p>
           </div>
 
           <div className="shadow-md bg-[#5f6f3a] shadow-[#5f6f3a] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto py-4" src={Mongo} alt="Mongo icon" />
-            <p className="my-4 font-bold">Mongo</p>
+            <img className="w-10 md:w-20 mx-auto py-4" src={Mongo} alt="Mongo icon" />
+            <p className="my-4 font-bold text-sm md:text-lg">Mongo</p>
           </div>
         </div>
       </div>
