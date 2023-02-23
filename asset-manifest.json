@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/mckay-portfolio/static/css/main.6039384b.css",
-    "main.js": "/mckay-portfolio/static/js/main.ae682e92.js",
+    "main.css": "/mckay-portfolio/static/css/main.8733ae58.css",
+    "main.js": "/mckay-portfolio/static/js/main.203557af.js",
     "static/media/profile.jpeg": "/mckay-portfolio/static/media/profile.2cbcfd1e181de29c706f.jpeg",
-    "static/media/color.jpg": "/mckay-portfolio/static/media/color.e454c037599d88737d70.jpg",
     "static/media/weather.jpg": "/mckay-portfolio/static/media/weather.db7a30bb3fb455df48af.jpg",
-    "static/media/cashflow.jpg": "/mckay-portfolio/static/media/cashflow.275b00c9f4d11fe09e6a.jpg",
-    "static/media/portfolio.jpg": "/mckay-portfolio/static/media/portfolio.536fe67804d91a527252.jpg",
+    "static/media/portfolio.jpg": "/mckay-portfolio/static/media/portfolio.68964937dde8e5dbe933.jpg",
     "static/media/password.jpg": "/mckay-portfolio/static/media/password.552e4ec661c75055bb3b.jpg",
-    "static/media/quiz.jpg": "/mckay-portfolio/static/media/quiz.528cdf78d4c92b37adc0.jpg",
+    "static/media/cashflow.jpg": "/mckay-portfolio/static/media/cashflow.75af402bb28abdf2fbc4.jpg",
+    "static/media/color.jpg": "/mckay-portfolio/static/media/color.4585b4b8373b12d8a315.jpg",
+    "static/media/quiz.jpg": "/mckay-portfolio/static/media/quiz.93bf8123144267c07c49.jpg",
+    "static/media/resume.pdf": "/mckay-portfolio/static/media/resume.f18cbfc6c5a243514175.pdf",
     "static/media/logo.png": "/mckay-portfolio/static/media/logo.a603b4f15dc5ea969d68.png",
     "static/media/react.png": "/mckay-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/mckay-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -19,11 +20,11 @@
     "static/media/css.png": "/mckay-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/mckay-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/mckay-portfolio/index.html",
-    "main.6039384b.css.map": "/mckay-portfolio/static/css/main.6039384b.css.map",
-    "main.ae682e92.js.map": "/mckay-portfolio/static/js/main.ae682e92.js.map"
+    "main.8733ae58.css.map": "/mckay-portfolio/static/css/main.8733ae58.css.map",
+    "main.203557af.js.map": "/mckay-portfolio/static/js/main.203557af.js.map"
   },
   "entrypoints": [
-    "static/css/main.6039384b.css",
-    "static/js/main.ae682e92.js"
+    "static/css/main.8733ae58.css",
+    "static/js/main.203557af.js"
   ]
 }
