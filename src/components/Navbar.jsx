@@ -110,6 +110,36 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
+          <a href="https://www.linkedin.com/in/mckay-fackrell-187066159/">
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
+          <a href="https://github.com/mckayfackrell">
+            <FaGithub size={30} />
+          </a>
+        </li>
+        <li className="py-6 text-2xl md:text-4xl hover:underline">
+          <a
+            className="flex justify-between items-center w-full text-black"
+            href="resume.pdf"
+            download="McKay Fackrell Resume"
+            onClick={(e) => {
+              e.preventDefault();
+              if (window.confirm("Do you want to download the resume?")) {
+                const link = document.createElement("a");
+                link.href = e.target.href;
+                link.download = e.target.download;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }
+            }}
+          >
+            <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
       </ul>
 
       {/* social icons */}
