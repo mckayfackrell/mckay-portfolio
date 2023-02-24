@@ -123,7 +123,7 @@ const Navbar = () => {
         <li className="py-3 text-2xl md:text-4xl hover:underline">
           <a
             className="flex justify-between items-center w-full text-black"
-            href="/resume.pdf"
+            href="./resume.pdf"
             download="McKay Fackrell Resume"
             onClick={(e) => {
               e.preventDefault();
@@ -174,7 +174,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f6f3a]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="McKay Fackrell Resume"
               onClick={(e) => {
                 e.preventDefault();
@@ -198,7 +198,10 @@ const Navbar = () => {
       <footer class="fixed bottom-0 left-0 z-20 w-full p-2 bg-[#546f7a] border-gray-200 shadow md:flex md:items-center md:justify-between md:p-3">
         <span class="text-sm text-black sm:text-center dark:black">
           © 2023{" "}
-          <a href="https://github.com/mckayfackrell" class="hover:underline hover:cursor-pointer">
+          <a
+            href="https://github.com/mckayfackrell"
+            class="hover:underline hover:cursor-pointer"
+          >
             McKay Fackrell
           </a>
         </span>
