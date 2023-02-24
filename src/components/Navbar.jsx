@@ -122,21 +122,22 @@ const Navbar = () => {
         </li>
         <li className="py-3 text-2xl md:text-4xl hover:underline">
           <a
-            className="flex justify-between items-center w-full text-black"
-            href="./resume.pdf"
-            download="McKay Fackrell Resume"
-            onClick={(e) => {
-              e.preventDefault();
-              if (window.confirm("Do you want to download the resume?")) {
-                const link = document.createElement("a");
-                link.href = e.target.href;
-                link.download = e.target.download;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }
-            }}
-          >
+              className="flex justify-between items-center w-full text-black"
+              href="https://mckayfackrell.github.io/mckay-portfolio/resume.pdf"
+              // download="McKay Fackrell Resume"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   if (window.confirm("Do you want to view my resume?")) {
+              //     const link = document.createElement("a");
+              //     link.href = e.target.href;
+              //     // link.download = e.target.download;
+              //     document.body.appendChild(link);
+              //     link.click();
+              //    // console.log(link);
+              //     // document.body.removeChild(link);
+              //   }
+              // }}
+            >
             <BsFillPersonLinesFill size={30} />
           </a>
         </li>
@@ -174,16 +175,17 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f6f3a]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="./resume.pdf"
-              download="McKay Fackrell Resume"
+              href="https://mckayfackrell.github.io/mckay-portfolio/resume.pdf"
+              // download="McKay Fackrell Resume"
               onClick={(e) => {
                 e.preventDefault();
-                if (window.confirm("Do you want to download the resume?")) {
+                if (window.confirm("Do you want to view my resume?")) {
                   const link = document.createElement("a");
                   link.href = e.target.href;
                   link.download = e.target.download;
                   document.body.appendChild(link);
                   link.click();
+                  console.log(link);
                   document.body.removeChild(link);
                 }
               }}
