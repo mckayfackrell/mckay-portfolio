@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/mckay-portfolio/static/css/main.dcf1d489.css",
-    "main.js": "/mckay-portfolio/static/js/main.d1275854.js",
+    "main.js": "/mckay-portfolio/static/js/main.f6e8b729.js",
     "static/media/profile.jpeg": "/mckay-portfolio/static/media/profile.2cbcfd1e181de29c706f.jpeg",
+    "static/media/poetry.jpg": "/mckay-portfolio/static/media/poetry.a93c654e8710eb923064.jpg",
     "static/media/weather.jpg": "/mckay-portfolio/static/media/weather.db7a30bb3fb455df48af.jpg",
     "static/media/portfolio.jpg": "/mckay-portfolio/static/media/portfolio.68964937dde8e5dbe933.jpg",
     "static/media/password.jpg": "/mckay-portfolio/static/media/password.552e4ec661c75055bb3b.jpg",
@@ -20,10 +21,10 @@
     "static/media/javascript.png": "/mckay-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/mckay-portfolio/index.html",
     "main.dcf1d489.css.map": "/mckay-portfolio/static/css/main.dcf1d489.css.map",
-    "main.d1275854.js.map": "/mckay-portfolio/static/js/main.d1275854.js.map"
+    "main.f6e8b729.js.map": "/mckay-portfolio/static/js/main.f6e8b729.js.map"
   },
   "entrypoints": [
     "static/css/main.dcf1d489.css",
-    "static/js/main.d1275854.js"
+    "static/js/main.f6e8b729.js"
   ]
 }
