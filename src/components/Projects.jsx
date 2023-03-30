@@ -1,10 +1,9 @@
 import React from "react";
-import cashflow from "../assets/projects/cashflow.jpg";
+import mckayflix from "../assets/projects/mckayflix.jpg";
 import color from "../assets/projects/color.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
 import weather from "../assets/projects/weather.jpg";
 import password from "../assets/projects/password.jpg";
-import quiz from "../assets/projects/quiz.jpg";
 import poetry from "../assets/projects/poetry.jpg";
 
 const Projects = () => {
@@ -54,10 +53,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* grid item: cashflow */}
+          {/* grid item: mckayflix */}
           <div
             style={{
-              backgroundImage: `url(${cashflow})`,
+              backgroundImage: `url(${mckayflix})`,
               backgroundSize: `100% 100%`,
             }}
             className="shadow-lg shadow-[#35454d] group container rounded-md 
@@ -66,15 +65,15 @@ const Projects = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                CashFlow
+                MCKAYFLIX
               </span>
               <div className="pt-8 text-center">
-                <a href="https://cashflow.herokuapp.com/">
+                <a href="https://mckay-flix.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/mckayfackrell/CashFlow">
+                <a href="https://github.com/mckayfackrell/mckay-flix">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
