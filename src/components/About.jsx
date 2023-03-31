@@ -27,13 +27,14 @@ const About = () => {
             <p className="md:text-xl lg:text-2xl mt-8">
               Take a look at my certificate:
               <a
-                href="https://www.credly.com/earner/earned/badge/ae1bd2b0-123b-4b8d-9b31-5c502fe74fbe"
+                href="https://www.credly.com/earner/earned/badge/05e9f0bb-d0b5-48e4-8ef4-c50f48a71137"
                 target="_blank"
                 rel="noreferrer"
               >
+                {/* Add this in github online */}
                 <img
                   className="mt-4 hover:scale-110 transition-all duration-300"
-                  src="https://user-images.githubusercontent.com/110206514/228938636-ce4e4055-8d64-4b19-a10a-7e29aa18e7fb.png"
+                  src="badge.png"
                   alt="University of Utah Badge"
                   width="150"
                 />
