@@ -31,10 +31,9 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {/* Add this in github online */}
                 <img
                   className="mt-4 hover:scale-110 transition-all duration-300"
-                  src="badge.png"
+                  src="https://user-images.githubusercontent.com/110206514/228991224-e78aaad5-a2de-4f75-a8df-e0b815814b02.png"
                   alt="University of Utah Badge"
                   width="150"
                 />
