@@ -14,9 +14,6 @@ Welcome to my personal portfolio website. This website provides the user with in
 ## Usage
 My portfolio is live using GitHub pages on this [link](https://mckayfackrell.github.io/mckay-portfolio/). You can then navigate through my portfolio by scrolling down the homepage or clicking the specific pages in the navigation bar at the top. Clicking my logo will take you back to the homepage.
 
-## Resume
-[Resume](https://github.com/mckayfackrell/mckay-portfolio/files/11163448/resume.pdf)
-
 ## Authors and acknowledgment
 I, McKay Fackrell am the original creator of the code.
 
